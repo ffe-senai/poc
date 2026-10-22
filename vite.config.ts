@@ -11,7 +11,7 @@ export default defineConfig({
     federation({
       name: "smart",
       exposes: {
-        "teste": "./src/ModuleBridge.tsx"
+        ".": "./src/ModuleBridge.tsx"
       },
       filename: "remoteEntry.js",
     })
