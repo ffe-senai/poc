@@ -9,7 +9,7 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] }),
     federation({
-      name: "smart",
+      name: "smart40",
       exposes: {
         ".": "./src/ModuleBridge.tsx"
       },
